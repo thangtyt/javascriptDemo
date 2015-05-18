@@ -1,0 +1,19 @@
+{
+  "name": "javasciptdemo",
+  "version": "1.0.0",
+  "description": "Demo javascript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://iojs.org/dist/v2.0.2/iojs-v2.0.2.tar.gz"
+  },
+  "keywords": [
+    "demo",
+    "javascript"
+  ],
+  "author": "thangnv",
+  "license": "MIT"
+}
