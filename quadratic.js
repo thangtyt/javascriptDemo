@@ -1,7 +1,7 @@
 /**
  * Created by thangnv on 5/19/15.
  */
-
+var String = require('./stringMethodExtend.js');
 function quadratic(a,b,c){
     if(typeof (a) != "number" && typeof (b) != "number" && typeof (c) != "number"){
         return NaN ;
@@ -24,28 +24,22 @@ function quadratic(a,b,c){
 
 }
 
-function revert_String(a){
-    //console.log("into function ");
-    if (typeof (a) != "string") {
-        return "Xin hay nhap chuoi can dao";
-    }
-    //console.log(a.length);
-    if (a.length <= 1){
-        return a;
-    } else {
-        //console.log("a.lengh > 0");
-        var temp="";
-        for( var i = a.length-1 ; i >=0  ; i--){
-            //console.log(a[i]);
-            temp=temp+(a[i]);
-            }
-        return temp;
-    }
-}
+//function revert_String(a){
+//
+//        var temp="";
+//        for( var i = a.length-1 ; i >=0  ; i--){
+//            //console.log(a[i]);
+//            temp=+charAt(i);
+//            }
+//        return temp;
+//
+//}
 
 console.log(quadratic(2,1,1));
 
-console.log(revert_String("123456789"));
+
+
+console.log("123456789".revert_String());
 
 //function Person(){
 //    var person_1 = {name : "Thang",Age : 30,address : "Nguyen trai"};

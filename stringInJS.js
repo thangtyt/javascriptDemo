@@ -1,6 +1,7 @@
 /**
  * Created by thangnv on 5/20/15.
  */
+    require ("./stringMethodExtend.js");
 var str = "This is the test Text in javascript , using javascript methods";
 
 //indexOf method
@@ -45,4 +46,4 @@ console.log("CharAt and CharCodeAt : "+str.charAt(44)+" -- "+str.charCodeAt(44))
 //split
 console.log("split method : "+ "hallo".split(""));
 
-
+console.log("test camel function ".camelUpperCase());

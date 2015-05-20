@@ -15,5 +15,8 @@
     "javascript"
   ],
   "author": "thangnv",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^2.3.0"
+  }
 }
