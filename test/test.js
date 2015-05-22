@@ -5,6 +5,7 @@
 var assert = require("assert");
 var chai = require("chai");
 var expect = chai.expect;
+var stringTest = "Cho vào một chuỗi string, hãy in ra từ và tần suất xuất hiện từ cao xuống thấp";
 require("../stringMethodExtend.js");
 
 //describe('Array', function(){
@@ -46,3 +47,14 @@ describe('String', function () {
 
     })
 });
+
+describe('String', function () {
+    describe('wordCount()',function(){
+        it('wordCount string function',function(){
+            expect(stringTest.wordCount()).to.equal(18);
+
+        })
+
+    })
+});
+
