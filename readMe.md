@@ -10,5 +10,8 @@ add more infomation about step to using github
  - git commit - m "infomation about this commit"
  - git remote add origin https://gibhub.com/nameOfGibhubRepo/projectName.
  - git push - u origin master
- 
+
+
+
+
  
